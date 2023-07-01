@@ -1,0 +1,13 @@
+int f(int x) {
+    return x + 52;
+}
+
+void main() {
+    int p = 0;
+
+    p = f(1);
+
+    printInt(p);
+
+    return;
+}
